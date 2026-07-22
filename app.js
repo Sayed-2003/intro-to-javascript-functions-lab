@@ -141,7 +141,7 @@ Complete the exercise in the space below:
 */
 
 function calculateTip(amtbill, percentage) {
-    let amount = amtbill % percentage
+    let amount = amtbill * percentage
     return amount
 }
 
