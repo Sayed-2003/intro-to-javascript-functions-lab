@@ -161,18 +161,7 @@ Example: convertTemperature(32, 'F') should return 0 (Celsius).
 
 Complete the exercise in the space below:
 */
-// const convertTemperature = (temp, scale = "") => {
-//     const sc = scale.toLocaleUpperCase()
-//     if (sc === 'C')
-//         return (temp * 9 / 5) + 32
 
-
-//     if (sc === 'F')
-//         return (temp - 32) * 5 / 9
-
-//     throw new Error("please make sure its upper case or Enter only C or F ")
-
-// }
 
 function convertTemperature(temp, scale) {
     if (scale === 'C')
